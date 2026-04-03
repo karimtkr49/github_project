@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="prod.DemoDB.kkk"
+  DTS:DTSID="{981876FF-E3B2-4783-BA8E-C9E351F4A337}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=prod;User ID=kkk;Initial Catalog=DemoDB;Provider=SQLOLEDB.1;Application Name=SSIS-github_practic-{981876FF-E3B2-4783-BA8E-C9E351F4A337}prod.DemoDB.kkk;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAL5ntRZVQO0+vyT3PItSA3wAAAAACAAAAAAADZgAAwAAAABAAAAD72pFN7pAuRqJYmrtzFrmxAAAAAASAAACgAAAAEAAAALKDzN36HFLMPV+5ZpxgTG5wAAAAfRsIhErUWf7bKw3JamonhnC8EJqNcxOYDiHk+NPFmfBjDB2yDnHuIQDio+g146yqCyxldkXXfXAYhxLz1pfgw/csrRqGgKztsvCRiV7BFk9/DcOjQQfvWo7gkaMS9IhDCZf2D8i5vopVwfl2v8hN8xQAAADjcoTSoKIZR9pWezkGwkTYagl7TA==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
